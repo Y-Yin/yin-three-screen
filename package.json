@@ -3,12 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "dev": "npm run serve",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "@jiaminghi/data-view": "^2.10.0",
     "core-js": "^3.6.5",
-    "vue": "^3.0.0",
+    "d3": "^3.5.17",
+    "echarts": "^5.4.2",
+    "element-plus": "^2.3.3",
+    "three": "^0.124.0",
+    "vue": "^3.2.36",
     "vue-router": "^4.0.0-0",
     "vuex": "^4.0.0-0"
   },
